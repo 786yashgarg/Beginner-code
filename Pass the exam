@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t > 0)
+    {
+        t--;
+        int x, y, z;
+        cin >> x;
+        cin >> y;
+        cin >> z;
+
+        int tolsum = x + y + z;
+        if ((x >= 10 && y >= 10 && z >= 10) && tolsum >= 100)
+        {
+            cout << "pass" << endl;
+        }
+
+        else
+        {
+            cout << "fail" << endl;
+        }
+    }
+    return 0;
+}
