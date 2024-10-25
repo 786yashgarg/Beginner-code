@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int x;
+	cin>>x;
+	int p=x%100;
+	if(x<2010&& x>1999)
+	cout<<"K"<<"0"<<p<<endl;
+	else
+	cout<<"K"<<p<<endl;
+	return 0;
+
+}
