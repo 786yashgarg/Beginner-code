@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t>0)
+    {t--;
+    float a,b,x,y;
+    cin>>a>>b>>x>>y;
+    float tima=a/x;
+    float timb=b/y;
+    if(tima>timb)
+    cout<<"chefina"<<endl;
+    else if(tima<timb)
+    cout<<"chef"<<endl;
+    else
+    cout<<"both"<<endl;}
+    return 0;
+}
