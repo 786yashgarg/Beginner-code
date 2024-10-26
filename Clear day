@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int x,y;
+	cin>>x>>y;
+	int c=7-x-y;
+	cout<<c<<endl;
+	return 0;
+
+}
