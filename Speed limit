@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+           int t;
+           cin>>t;
+           while (t>0)
+           {t--;
+           float a,b,x,y;
+           cin>>a>>x>>b>>y;
+           float p=a/x;
+           float q=b/y;
+           if (p>q)
+           cout<<"alice"<<endl;
+           else if(p==q)
+           cout<<"equal"<<endl;
+           else
+           cout<<"bob"<<endl;
+           }
+           return 0;
+           
+
+}
